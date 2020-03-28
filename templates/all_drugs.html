@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block page %}
+    <h2>Список всех лекарств</h2>
     <ol>
         {% for drug in drugs_list %}
             <li>{{ drug }}</li>
